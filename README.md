@@ -17,19 +17,22 @@ The goal is to minimize unexpected machine breakdowns by predicting failures in 
 ---
 
 ## 📂 Project Structure
+
 Machine-Failure-Prediction-using-ML/
+│
 ├── data/
-│ └── ai4i2020.csv # Dataset
+│   └── ai4i2020.csv                # Dataset
 │
 ├── assets/
-│ └── label_encoder.pkl # Saved label encoder
+│   └── label_encoder.pkl           # Saved label encoder
 │
-├── model.ipynb # Main training & evaluation notebook
-├── champion_model.pkl # Best trained ML model
-├── model_comparison.png # F1-score comparison bar graph
-├── winner_confusion_matrix.png # Confusion matrix of best model
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+├── model.ipynb                     # Main training & evaluation notebook
+├── champion_model.pkl              # Best trained ML model
+├── model_comparison.png            # F1-score comparison bar graph
+├── winner_confusion_matrix.png     # Confusion matrix of best model
+├── requirements.txt                # Project dependencies
+└── README.md                       # Project documentation
+
 
 
 ---
