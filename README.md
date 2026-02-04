@@ -16,19 +16,18 @@ The goal is to minimize unexpected machine breakdowns by predicting failures in 
 
 ---
 
-## 📂 Project Structure
 Machine-Failure-Prediction-using-ML/
 │
 ├── data/
-│ └── ai4i2020.csv
+│   └── ai4i2020.csv           # Raw Sensor Dataset
 ├── assets/
-│ └── label_encoder.pkl
-├── model.ipynb
-├── champion_model.pkl
-├── model_comparison.png
-├── winner_confusion_matrix.png
-├── requirements.txt
-└── README.md
+│   └── label_encoder.pkl      # Encoder for categorical machine types
+├── model.ipynb                # Research, EDA, and Model Comparison
+├── champion_model.pkl         # Trained GBM Brain (Joblib)
+├── model_comparison.png       # Visualization of F1-Scores
+├── winner_confusion_matrix.png # Confusion Matrix for GBM
+├── requirements.txt           # Project dependencies
+└── README.md                  # Project Documentation
 
 
 ---
