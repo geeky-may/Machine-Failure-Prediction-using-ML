@@ -1,4 +1,4 @@
-# 🛠️ Machine Failure Prediction using Machine Learning
+# 🛠️ Machine Failure Prediction using ML
 
 This project implements a machine learning-based predictive maintenance system to detect and classify machine failures using sensor data. Multiple classification models are trained and evaluated, and the best-performing model is selected based on performance metrics.
 
